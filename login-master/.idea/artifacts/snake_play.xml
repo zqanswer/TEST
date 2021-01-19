@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="snake-play">
+    <output-path>$PROJECT_DIR$/../</output-path>
+    <root id="archive" name="snake-play.war">
+      <element id="artifact" artifact-name="login:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="login" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
